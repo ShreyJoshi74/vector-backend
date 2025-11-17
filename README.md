@@ -46,16 +46,3 @@ Kahn’s algorithm guarantees this.
 
 ---
 
-## 📥 Input Format
-
-The backend expects a JSON payload like:
-
-```json
-{
-  "nodes": ["A", "B", "C", "D"],
-  "edges": [
-    ["A", "B"],
-    ["B", "C"],
-    ["A", "D"]
-  ]
-}
